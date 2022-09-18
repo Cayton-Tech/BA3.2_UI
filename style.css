@@ -1,0 +1,95 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/kids-showing-hands-during-a-lesson-at-an-elementary-school-picture-id803141126?k=20&m=803141126&s=612x612&w=0&h=I5vjcaX6BZ3OD12xXhgJrwCkmuGr18r-SPwgIlze-x4=");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+.form_note {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 400px;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form_note label {
+    color: black;
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input #notes {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form_note input,
+label {
+    align-content: left;
+    text-align: left;
+    color: black;
+    margin: .4rem 0;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #ddd;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: #555;
+}
+
+.form_english {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 400px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}

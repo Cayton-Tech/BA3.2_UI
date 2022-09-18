@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">eTutor: English Speech Practice</h1>
+    <p>Need to work on your english speaking ability? Make use this feature which lets you input words via text and listen to how it should be pronounced.</p>
+    <div class="form_english">
+      <form for="english">
+        <label for="written_speech">Text to convert</label>
+        <input type="text" id="written_speech" name="written_speech" placeholder="The text you would like to hear vocalised...">
+
+        <br>
+        
+        <audio id="myAudio" controls>
+          <source src="horse.ogg" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
